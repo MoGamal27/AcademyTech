@@ -1,6 +1,6 @@
 import { Router } from 'express';
 import { getPublicProfile, getPrivateProfile, updateProfile } from '../controllers/ProfileController';
-import { protect } from '../middleware/authMiddleware';
+import { protect } from '../middleware/authMiddleware.ts';
 
 const router = Router();
 

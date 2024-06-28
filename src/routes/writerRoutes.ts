@@ -10,7 +10,7 @@ import {
   getAllSubmissions,
   getAllPublished,
 } from '../controllers/WriterController';
-import { protect } from '../middleware/authMiddleware';
+import { protect } from '../middleware/authMiddleware.ts';
 
 const router = Router();
 
